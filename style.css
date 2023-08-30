@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani:wght@400&display=swap');
+
+body {
+    font-family: 'Noto Sans Multani', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: rgba(83,20,160,255);
+}
+
+p {
+    color: #918ea0;
+}
+
+#navbar ul {  
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilize o menu */
+#navbar {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 1px;
+}
+
+/* Estilize o logo */
+#navbar a img {
+    width: 100px;
+    padding-left: 50px;
+    margin-right: 100px;
+
+}
+
+/* Estilize a lista de links */
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Estilize os itens de menu */
+#navbar li {
+    margin-right: 35px;
+    color: #918ea0;
+}
+
+/* Coloque os links "Log In" e "Sign Up" no canto direito */
+.header-buttons {
+    display: flex;
+    flex-direction:row; 
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.login-button {
+    background-color: transparent;
+    border: none;
+    color: rgba(83,20,160,255);
+    padding: 10px 20px 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-image: url("https://i.imgur.com/f8iiFut.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+.signup-button {
+    background-color: transparent;
+    color: #2879f9;
+    border-color: #2879f9;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#startedx {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#startedx h3 {
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#startedx p {
+    font-size: 17px;
+    width: 230px;
+    text-align: center;
+}
+
+footer {
+    height: 400px;
+    background-image: url("https://i.imgur.com/wLkxZO3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1919px 900px;
+    color: white;
+    display: flex;
+}
+
+footer a {
+    text-decoration:none;
+    color: white;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+#store img {
+    width: 100px;
+}
+
+.registro {
+    padding-inline: 50px;
+}
