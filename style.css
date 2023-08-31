@@ -165,6 +165,11 @@ header {
     padding: 20px;
   }
 
+#inicial3 img {
+    padding-left: 120px;
+    padding-bottom: 50px;
+  }
+
 .separator {
     margin-bottom: 20px; /* Espaçamento entre os elementos */
 }
