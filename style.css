@@ -19,6 +19,10 @@ h1, h2, h3 {
     color: rgba(83,20,160,255);
 }
 
+h3 {
+  font-size: 30px;
+}
+
 h1 {font-size: 70px; width: 500px; margin-bottom: 20px;}
 
 #inicial p {font-size: 20px; text-align: justify; width: 500px;}
@@ -123,12 +127,6 @@ header {
   margin-top: 40px;
   margin-bottom: 40px;}
 
-#inicial4 {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 
 #started {
     display: flex;
@@ -198,6 +196,12 @@ header {
     justify-content:center;
     min-height: 750px;
     padding: 20px;
+    margin-left: 150px;
+}
+
+#inicial4 img {
+  padding-left: 120px;
+  padding-bottom: 50px;
 }
 
 .content2 {
