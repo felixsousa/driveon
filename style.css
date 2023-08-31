@@ -166,8 +166,9 @@ header {
   }
 
 #inicial3 img {
-    padding-left: 120px;
-    padding-bottom: 50px;
+    margin-left: 160px;
+    margin-bottom: 90px;
+    margin-top: 80px;
   }
 
 .separator {
@@ -182,6 +183,7 @@ header {
 
   #inicial3 .more, #inicial4 .more2 {
     color: blue;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 25px;
     text-align: left;
@@ -204,7 +206,7 @@ header {
 
 #inicial4 img {
   padding-left: 120px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .content2 {
@@ -214,12 +216,12 @@ header {
   width: 430px;
 }
 
-#inicial4 .more2 {
-  padding-left: 100px;
+#inicial3 .more {
+  margin-left: 90px;
 }
 
-#inicial3 .more {
-  padding-left: 0px;
+#inicial4 .more2 {
+  margin-left: 120px;
 }
 
 #inicial5 {
@@ -228,24 +230,23 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
   }
 
-#inicialfinal {
-    text-align: right; /* Alinha o conteúdo à direita */
+#inicial5 #inicial6 .separator {
+  justify-content: center;
+  margin-top: 250px;
+  margin-right: 750px;
 }
 
-#inicialfinal h3 {
-  width: 520px;
-    text-align: left; /* Centraliza o texto */
-    font-size: 30px; /* Define o tamanho da fonte */
-    line-height: 1.5; /* Espaçamento entre as linhas */
-    margin-top: 300px;
-    margin-bottom: 1px; /* Espaçamento inferior */
+#inicial5 h3 {
+  margin-left: 10px;
+  margin-right: 390px;
+  max-width: 520px;
 }
 
   #store {
@@ -253,14 +254,27 @@ header {
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 2px;
-    margin-right: 250px; 
+    margin-right: 300px;
     margin-bottom: 150px; 
   }
   
 #store a img {
     width: 300px;
     max-height:auto;
+}
+
+#inicial6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicial6 .registro {
+  
+  width: 500px;
+  margin-left: 100px;
+  margin-right: 500px;
 }
 
 footer {
