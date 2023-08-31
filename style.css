@@ -114,9 +114,7 @@ header {
     padding: 50px;
 }
 
-#inicial h1,
-#inicial p,
-#inicial button {
+#inicial h1, #inicial p, #inicial button {
     width: 100%;
     max-width: 500px;
     margin: 10px 0;
