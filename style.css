@@ -2,99 +2,133 @@
 
 body {
     font-family: 'Noto Sans Multani', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+  color: inherit;
 }
 
 p {
     font-size: 20px;
+    color: #918ea0;
 }
 
 h1, h2, h3 {
     color: rgba(83,20,160,255);
 }
 
-p {
-    color: #918ea0;
-}
+h1 {font-size: 70px; width: 500px; margin-bottom: 20px;}
 
-#navbar ul {  
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-}
+#inicial p {font-size: 20px; text-align: justify; width: 500px;}
 
-#navbar a{
-    text-decoration: none;
-    color: inherit;
-}
+.separator {display: flex; justify-content: center; align-items: center; padding: 20px 0;}
+
+.separator img {width: 150px; height: 15px;}
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-/* Estilize o menu */
-#navbar {
-    display: flex;
-    flex-direction:row;
-    margin-bottom: 1px;
-}
-
-/* Estilize o logo */
-#navbar a img {
-    width: 100px;
-    padding-left: 50px;
-    margin-right: 100px;
-
-}
-
-/* Estilize a lista de links */
-#navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-}
-
-/* Estilize os itens de menu */
-#navbar li {
-    margin-right: 35px;
-    color: #918ea0;
-}
-
-/* Coloque os links "Log In" e "Sign Up" no canto direito */
 .header-buttons {
-    display: flex;
-    flex-direction:row; 
-    align-items: flex-end;
-    justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos do logo */
+#navbar a img {
+  width: 100px;
+  padding-left: 50px;
+  margin-right: 100px;
+}
+
+/* Estilos dos itens de menu */
+#navbar li {
+  margin-right: 35px;
+  color: #918ea0;
 }
 
 .login-button {
-    background-color: transparent;
-    border: none;
-    color: rgba(83,20,160,255);
-    padding: 10px 20px 10px 30px;
-    margin-top: 10px;
-    cursor: pointer;
-    background-image: url("https://i.imgur.com/f8iiFut.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-
+  background-color: transparent;
+  border: none;
+  color: rgba(83,20,160,255);
+  padding: 10px 20px 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-image: url("https://i.imgur.com/f8iiFut.png");
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .signup-button {
-    background-color: transparent;
-    color: #2879f9;
-    border-color: #2879f9;
-    border-radius: 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    padding: 10px 20px;
+  background-color: transparent;
+  color: #2879f9;
+  border-color: #2879f9;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
 }
+
+ #inicial {
+    align-items: flex-start;
+    background-image: url(https://i.imgur.com/YL1CX7P.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 750px;
+    padding: 50px;
+}
+
+#inicial h1,
+#inicial p,
+#inicial button {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+#inicial2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;}
+
+#inicial4 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 #started {
     display: flex;
@@ -103,9 +137,9 @@ header {
   }
   
 .startedx {
-    text-align: center;
-    margin: 0 80px;
-    width: 260px;
+    text-align: center;   
+    max-width: 100%;
+    margin: 10px;
   }
 
   .startedx h3 {
@@ -117,6 +151,111 @@ header {
     margin-top: 30px;
   }
 
+  .startedx h3,
+  .startedx p {
+      font-size: 16px;
+  }
+
+  #inicial3 {
+    align-items:center;
+    background-image: url(https://i.imgur.com/jcqjBVY.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .separator {
+    margin-bottom: 20px; /* Espaçamento entre os elementos */
+}
+  
+.content {
+    text-align: justify;    
+    padding-left: 500px;
+    width: 550px;
+  }
+
+  #inicial3 .more, #inicial4 .more2 {
+    color: blue;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: left;
+    text-decoration: none;
+  }
+
+#inicial4 {
+    align-items: flex-start;
+    background-image: url(https://i.imgur.com/3fA1K5h.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 750px;
+    padding: 20px;
+}
+
+.content2 {
+  margin-left: 20px;
+  text-align: justify;    
+  padding-left: 100px;
+  width: 430px;
+}
+
+#inicial4 .more2 {
+  padding-left: 100px;
+}
+
+#inicial3 .more {
+  padding-left: 0px;
+}
+
+#inicial5 {
+    align-items: flex-end;
+    background-image: url(https://i.imgur.com/wFuOHen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #inicialfinal {
+    text-align: right; /* Alinha o conteúdo à direita */
+}
+
+#inicialfinal h3 {
+  width: 520px;
+    text-align: left; /* Centraliza o texto */
+    font-size: 30px; /* Define o tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    margin-top: 300px;
+    margin-bottom: 1px; /* Espaçamento inferior */
+}
+
+
+  #store {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 2px;
+    margin-right: 250px; 
+    margin-bottom: 150px; 
+  }
+  
+  #store a img {
+    width: 300px;
+    max-height:auto;
+}
 
 footer {
     height: 400px;
@@ -125,15 +264,29 @@ footer {
     background-size: 1919px 900px;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px;
 }
 
-footer a {
+#footer-menu {
+  margin-right: 20px;
+}
+
+#footer-menu a {
     text-decoration:none;
     color: white;
 }
 
-footer ul li {
+#footer-menu ul li {
     list-style: none;
+}
+
+#footer-social-icons img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 #store img {
@@ -143,60 +296,3 @@ footer ul li {
 .registro {
     width: 100px;
 }
-
-#inicial3 {
-    min-height: 800px;
-    background-image: url(https://i.imgur.com/jcqjBVY.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content:start;
-    align-items: center;
-    padding: 0 350px;
-    width: 1020px;
-    margin-top: 30px;
-  }
-  
-  .content {
-    text-align: justify;    
-    padding-left: 500px;
-    width: 550px;
-  }
-  
-  #learnmore {
-    display: inline-block;
-    color: rgb(57, 100, 216);
-    font-weight: bold;
-    text-decoration: none;
-    padding-left: 65px;
-    margin-top: 35px;
-  }
-
-  #inicial5 {
-    background-image: url(https://i.imgur.com/wFuOHen.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 0 20px;
-  }
-  
-  #inicial5 h3 {
-    text-align: center;
-  }
-  
-  #store {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  #store a {
-    margin-left: 10px;
-  }
