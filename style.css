@@ -154,7 +154,7 @@ header {
       font-size: 16px;
   }
 
-  #inicial3 {
+#inicial3 {
     align-items:center;
     background-image: url(https://i.imgur.com/jcqjBVY.png);
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ header {
     padding: 20px;
   }
 
-  .separator {
+.separator {
     margin-bottom: 20px; /* Espaçamento entre os elementos */
 }
   
@@ -232,7 +232,7 @@ header {
     padding: 20px;
   }
 
-  #inicialfinal {
+#inicialfinal {
     text-align: right; /* Alinha o conteúdo à direita */
 }
 
@@ -245,7 +245,6 @@ header {
     margin-bottom: 1px; /* Espaçamento inferior */
 }
 
-
   #store {
     align-items: center;
     display: flex;
@@ -256,7 +255,7 @@ header {
     margin-bottom: 150px; 
   }
   
-  #store a img {
+#store a img {
     width: 300px;
     max-height:auto;
 }
