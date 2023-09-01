@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani:wght@400&display=swap');
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 body {
     font-family: 'Noto Sans Multani', sans-serif;
     margin: 0;
@@ -93,8 +95,8 @@ header {
 
 .signup-button {
   background-color: transparent;
-  color: #2879f9;
-  border-color: #2879f9;
+  color: #2678f8;
+  border-color: #2678f8;
   border-radius: 15px;
   margin-top: 10px;
   cursor: pointer;
@@ -218,10 +220,12 @@ header {
 
 #inicial3 .more {
   margin-left: 90px;
+  color: #2678f8;
 }
 
 #inicial4 .more2 {
   margin-left: 120px;
+  color: #2678f8;
 }
 
 #inicial5 {
@@ -230,36 +234,41 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    position: relative;
   }
 
-#inicial5 #inicial6 .separator {
-  justify-content: center;
+#inicial5 .separator {
+  filter: grayscale(80) invert(10) opacity(55%) ;
+  justify-content: right;
   margin-top: 250px;
-  margin-right: 750px;
+  margin-right: 640px;
+  padding-right: 30px;
 }
 
 #inicial5 h3 {
+  margin-bottom: 5vh;
   margin-left: 10px;
-  margin-right: 390px;
   max-width: 520px;
+  padding-right: 300px;
 }
 
-  #store {
+#store {
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 1px;
     justify-content: center;
     margin-right: 300px;
-    margin-bottom: 150px; 
+    margin-bottom: 20vh;
+    margin-top: -90px; 
   }
   
 #store a img {
-    width: 300px;
+    width: 270px;
     max-height:auto;
 }
 
@@ -268,29 +277,48 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 15vh;
+  margin-right: 10vh;
+  gap: 80px;
 }
 
 #inicial6 .registro {
-  
+  text-align: center;
   width: 500px;
   margin-left: 100px;
-  margin-right: 500px;
 }
 
-footer {
-    height: 400px;
+.registro h2 {
+  margin-left: 30px;
+  margin-right: 50px;
+  text-align: left;
+  font-size: 40px;
+}
+
+.seta {
+  padding-bottom: 200px;
+  margin-left: 500px;
+}
+
+.subli {
+  margin-right: 220px;
+}
+
+.final {
+    height: 500px;
     background-image: url("https://i.imgur.com/wLkxZO3.jpg");
     background-repeat: no-repeat;
-    background-size: 1919px 900px;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    padding: 20px;
+    background-size: cover;
 }
 
 #footer-menu {
-  margin-right: 20px;
+  color: white;
+  margin-right: 300px;
+  text-align: left;
+}
+
+#footer-menu h4 {
+  font-size: 20px;
 }
 
 #footer-menu a {
@@ -302,17 +330,58 @@ footer {
     list-style: none;
 }
 
-#footer-social-icons img {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  margin-right: 10px;
-}
-
 #store img {
     width: 100px;
 }
 
 .registro {
     width: 100px;
+}
+
+.finalogo {
+  filter: brightness(100);
+}
+
+.finalogo img {
+  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+  vertical-align: middle; /* Centraliza verticalmente a imagem com o texto */
+}
+
+.finallogo i {
+  font-size: 24px; /* Tamanho do ícone */
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.finallogo p {
+  display: flex; /* Garante que o texto fique na mesma linha que o ícone */
+  margin: 0; /* Remove margens padrão do parágrafo */
+  vertical-align: middle; /* Centraliza verticalmente o texto com o ícone e a imagem */
+}
+
+.finallogo img, .finallogo i {
+  width: 24px; /* Ajuste a largura conforme necessário */
+  height: 24px; /* Ajuste a altura conforme necessário */
+}
+
+
+#footer-copyright {
+  justify-content: space-between;
+  margin-top: 20px; /* Espaçamento entre o conteúdo e o rodapé */
+  text-align: center;
+  color: white; /* Cor do texto do rodapé */
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icons i:not(:last-child) {
+  margin-right: 10px; /* Espaçamento entre os ícones, exceto o último */
+}
+
+.bi {font-size: 22px; color: white;}
+
+.footer-left {
+  flex: 1; /* Div esquerda ocupa espaço disponível */
 }
