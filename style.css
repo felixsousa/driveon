@@ -9,6 +9,7 @@ h1{font-size:70px;width:500px;margin-bottom:20px}
 #inicial p{font-size:20px;text-align:justify;width:500px}
 .separator{display:flex;justify-content:center;align-items:center;padding:20px 0}
 .separator img{width:150px;height:15px}
+#inicial #discover {background: linear-gradient(to bottom, #0099cc, #66ccff); width: 150px; height: 50px; color: white; border-radius: 10px; border: none; font-size: 20px; font-weight: bold;}
 header{display:flex;justify-content:space-between;align-items:center;padding:10px}
 .header-buttons{flex-direction:column;align-items:flex-start;gap:10px}
 #navbar{display:flex;justify-content:space-between;align-items:center;flex-direction:row;margin-bottom:1px;padding:10px}
@@ -28,9 +29,8 @@ header{display:flex;justify-content:space-between;align-items:center;padding:10p
 .startedx h3,.startedx p{font-size:16px}
 #inicial3{align-items:center;background-image:url(https://i.imgur.com/jcqjBVY.png);background-repeat:no-repeat;background-position:left;background-size:contain;display:flex;flex-direction:column;min-height:800px;margin-top:30px;padding:20px}
 #inicial3 img{margin-left:160px;margin-bottom:90px;margin-top:80px}
-.separator{margin-bottom:20px}
 .content{text-align:justify;padding-left:500px;width:550px}
-#inicial3 .more,#inicial4 .more2{color:#00f;font-size:20px;font-weight:700;margin-top:25px;text-align:left;text-decoration:none}
+#inicial3 .more,#inicial4 .more2{color:#00f;font-size:20px;font-weight:700;margin-top:20px;text-align:left;text-decoration:none}
 #inicial4{align-items:flex-start;background-image:url(https://i.imgur.com/3fA1K5h.png);background-repeat:no-repeat;background-position:right;background-size:contain;display:flex;flex-direction:column;justify-content:center;min-height:750px;padding:20px;margin-left:150px}
 #inicial4 img{padding-left:120px;padding-bottom:30px}
 .content2{margin-left:20px;text-align:justify;padding-left:100px;width:430px}
@@ -41,25 +41,32 @@ header{display:flex;justify-content:space-between;align-items:center;padding:10p
 #inicial5 h3{margin-bottom:5vh;margin-left:10px;max-width:520px;padding-right:300px}
 #store{align-items:center;display:flex;gap:1px;justify-content:center;margin-right:300px;margin-bottom:20vh;margin-top:-90px}
 #store a img{width:270px;max-height:auto}
-#inicial6{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:15vh;margin-right:10vh;gap:80px}
+#inicial6{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:15vh;margin-right:10vh;gap:80px; margin-bottom: 15px; padding-bottom: 130px;}
 #inicial6 .registro{text-align:center;width:500px;margin-left:100px}
 .registro h2{margin-left:30px;margin-right:50px;text-align:left;font-size:40px}
-.seta{padding-bottom:200px;margin-left:500px}
 .subli{margin-right:220px}
-footer{color:#fff;margin-top:150px;justify-content:center;margin-left:250px}
-#footer-menu{color:#fff;margin-right:300px;text-align:left;line-height:40px}
-#footer-menu h4{font-size:25px;margin-left:35px}
+#inicial6 a {text-decoration: none;}
+
+/*/ SECTION FINAL */
+
+.final {
+    background-image:url("https://i.imgur.com/wLkxZO3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 850px;
+}
+
+.finalogo {filter:brightness(100)}
+.finalogo img {margin-right:20px;vertical-align:middle}
+.finallogo i {font-size:24px;margin-right:10px}
+#footer-menu{color:#fff;margin-right:100px;text-align:left;line-height:40px}
+#footer-menu h4{font-size:20px;margin-left:35px}
 #footer-menu a{text-decoration:none;color:#fff;text-align:left}
 #footer-menu ul li{list-style:none}
-#store img{width:100px}
-.registro{width:100px}
-.final{height:780px;width:auto;background-image:url("https://i.imgur.com/wLkxZO3.jpg");background-repeat:no-repeat;background-size:cover}
-.finalogo{filter:brightness(100)}
-.finalogo img{margin-right:20px;vertical-align:middle}
-.finallogo i{font-size:24px;margin-right:10px}
-.finallogo p{display:flex;margin:0;vertical-align:middle}
-.finallogo i,.finallogo img{width:24px;height:24px}
-#footer-copyright{justify-content:space-between;margin-top:20px;text-align:center;color:#fff}
-.social-icons{display:flex;gap:10px;margin-top:150px;padding-right:350px}
-.social-icons i:not(:last-child){margin-right:10px}
-.bi{font-size:22px;color:#fff}
+footer {
+    color: white;
+    margin-bottom: 25px; margin-top: 10px;  padding-left:200px;
+}
+.social-icons{display:flex;gap:50px;margin-bottom: 25px; margin-top: 10px;  padding-right:300px}
+.social-icons i:not(:last-child){margin-right:15px}
+.bi{font-size:20px;color:#fff}
