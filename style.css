@@ -1,387 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani:wght@400&display=swap');
-
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
-
-body {
-    font-family: 'Noto Sans Multani', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-a:visited {
-  color: inherit;
-}
-
-p {
-    font-size: 20px;
-    color: #918ea0;
-}
-
-h1, h2, h3 {
-    color: rgba(83,20,160,255);
-}
-
-h3 {
-  font-size: 30px;
-}
-
-h1 {font-size: 70px; width: 500px; margin-bottom: 20px;}
-
-#inicial p {font-size: 20px; text-align: justify; width: 500px;}
-
-.separator {display: flex; justify-content: center; align-items: center; padding: 20px 0;}
-
-.separator img {width: 150px; height: 15px;}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.header-buttons {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  margin-bottom: 1px;
-  padding: 10px;
-}
-
-#navbar ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  justify-content: space-between;
-}
-
-#navbar a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Estilos do logo */
-#navbar a img {
-  width: 100px;
-  padding-left: 50px;
-  margin-right: 100px;
-}
-
-/* Estilos dos itens de menu */
-#navbar li {
-  margin-right: 35px;
-  color: #918ea0;
-}
-
-.login-button {
-  background-color: transparent;
-  border: none;
-  color: rgba(83,20,160,255);
-  padding: 10px 20px 10px 30px;
-  margin-top: 10px;
-  cursor: pointer;
-  background-image: url("https://i.imgur.com/f8iiFut.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
-.signup-button {
-  background-color: transparent;
-  color: #2678f8;
-  border-color: #2678f8;
-  border-radius: 15px;
-  margin-top: 10px;
-  cursor: pointer;
-  padding: 10px 20px;
-}
-
- #inicial {
-    align-items: flex-start;
-    background-image: url(https://i.imgur.com/YL1CX7P.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 750px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 750px;
-    padding: 50px;
-}
-
-#inicial h1, #inicial p, #inicial button {
-    width: 100%;
-    max-width: 500px;
-    margin: 10px 0;
-}
-
-#inicial2 {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;}
-
-
-#started {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 120px;
-  }
-  
-.startedx {
-    text-align: center;   
-    max-width: 100%;
-    margin: 10px;
-  }
-
-  .startedx h3 {
-    margin-bottom: 40px;
-    font-size: 28px;
-  }
-  
-  .startedx p {
-    margin-top: 30px;
-  }
-
-  .startedx h3,
-  .startedx p {
-      font-size: 16px;
-  }
-
-#inicial3 {
-    align-items:center;
-    background-image: url(https://i.imgur.com/jcqjBVY.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    min-height: 800px;
-    margin-top: 30px;
-    padding: 20px;
-  }
-
-#inicial3 img {
-    margin-left: 160px;
-    margin-bottom: 90px;
-    margin-top: 80px;
-  }
-
-.separator {
-    margin-bottom: 20px; /* Espaçamento entre os elementos */
-}
-  
-.content {
-    text-align: justify;    
-    padding-left: 500px;
-    width: 550px;
-  }
-
-  #inicial3 .more, #inicial4 .more2 {
-    color: blue;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 25px;
-    text-align: left;
-    text-decoration: none;
-  }
-
-#inicial4 {
-    align-items: flex-start;
-    background-image: url(https://i.imgur.com/3fA1K5h.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    min-height: 750px;
-    padding: 20px;
-    margin-left: 150px;
-}
-
-#inicial4 img {
-  padding-left: 120px;
-  padding-bottom: 30px;
-}
-
-.content2 {
-  margin-left: 20px;
-  text-align: justify;    
-  padding-left: 100px;
-  width: 430px;
-}
-
-#inicial3 .more {
-  margin-left: 90px;
-  color: #2678f8;
-}
-
-#inicial4 .more2 {
-  margin-left: 120px;
-  color: #2678f8;
-}
-
-#inicial5 {
-    align-items: flex-end;
-    background-image: url(https://i.imgur.com/wFuOHen.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-  }
-
-#inicial5 .separator {
-  filter: grayscale(80) invert(10) opacity(55%) ;
-  justify-content: right;
-  margin-top: 250px;
-  margin-right: 640px;
-  padding-right: 30px;
-}
-
-#inicial5 h3 {
-  margin-bottom: 5vh;
-  margin-left: 10px;
-  max-width: 520px;
-  padding-right: 300px;
-}
-
-#store {
-    align-items: center;
-    display: flex;
-    gap: 1px;
-    justify-content: center;
-    margin-right: 300px;
-    margin-bottom: 20vh;
-    margin-top: -90px; 
-  }
-  
-#store a img {
-    width: 270px;
-    max-height:auto;
-}
-
-#inicial6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15vh;
-  margin-right: 10vh;
-  gap: 80px;
-}
-
-#inicial6 .registro {
-  text-align: center;
-  width: 500px;
-  margin-left: 100px;
-}
-
-.registro h2 {
-  margin-left: 30px;
-  margin-right: 50px;
-  text-align: left;
-  font-size: 40px;
-}
-
-.seta {
-  padding-bottom: 200px;
-  margin-left: 500px;
-}
-
-.subli {
-  margin-right: 220px;
-}
-
-.final {
-    height: 500px;
-    background-image: url("https://i.imgur.com/wLkxZO3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#footer-menu {
-  color: white;
-  margin-right: 300px;
-  text-align: left;
-}
-
-#footer-menu h4 {
-  font-size: 20px;
-}
-
-#footer-menu a {
-    text-decoration:none;
-    color: white;
-}
-
-#footer-menu ul li {
-    list-style: none;
-}
-
-#store img {
-    width: 100px;
-}
-
-.registro {
-    width: 100px;
-}
-
-.finalogo {
-  filter: brightness(100);
-}
-
-.finalogo img {
-  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
-  vertical-align: middle; /* Centraliza verticalmente a imagem com o texto */
-}
-
-.finallogo i {
-  font-size: 24px; /* Tamanho do ícone */
-  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
-}
-
-.finallogo p {
-  display: flex; /* Garante que o texto fique na mesma linha que o ícone */
-  margin: 0; /* Remove margens padrão do parágrafo */
-  vertical-align: middle; /* Centraliza verticalmente o texto com o ícone e a imagem */
-}
-
-.finallogo img, .finallogo i {
-  width: 24px; /* Ajuste a largura conforme necessário */
-  height: 24px; /* Ajuste a altura conforme necessário */
-}
-
-
-#footer-copyright {
-  justify-content: space-between;
-  margin-top: 20px; /* Espaçamento entre o conteúdo e o rodapé */
-  text-align: center;
-  color: white; /* Cor do texto do rodapé */
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px; /* Espaçamento entre os ícones */
-}
-
-.social-icons i:not(:last-child) {
-  margin-right: 10px; /* Espaçamento entre os ícones, exceto o último */
-}
-
-.bi {font-size: 22px; color: white;}
-
-.footer-left {
-  flex: 1; /* Div esquerda ocupa espaço disponível */
-}
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Multani:wght@400&display=swap);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css);
+body{font-family:'Noto Sans Multani',sans-serif;margin:0;padding:0}
+a:visited{color:inherit}
+p{font-size:20px;color:#918ea0}
+h1,h2,h3{color:#5314a0}
+h3{font-size:30px}
+h1{font-size:70px;width:500px;margin-bottom:20px}
+#inicial p{font-size:20px;text-align:justify;width:500px}
+.separator{display:flex;justify-content:center;align-items:center;padding:20px 0}
+.separator img{width:150px;height:15px}
+header{display:flex;justify-content:space-between;align-items:center;padding:10px}
+.header-buttons{flex-direction:column;align-items:flex-start;gap:10px}
+#navbar{display:flex;justify-content:space-between;align-items:center;flex-direction:row;margin-bottom:1px;padding:10px}
+#navbar ul{list-style:none;display:flex;padding:0;margin:0;justify-content:space-between}
+#navbar a{text-decoration:none;color:inherit}
+#navbar a img{width:100px;padding-left:50px;margin-right:100px}
+#navbar li{margin-right:35px;color:#918ea0}
+.login-button{background-color:transparent;border:none;color:#5314a0;padding:10px 20px 10px 30px;margin-top:10px;cursor:pointer;background-image:url("https://i.imgur.com/f8iiFut.png");background-repeat:no-repeat;background-position:left center}
+.signup-button{background-color:transparent;color:#2678f8;border-color:#2678f8;border-radius:15px;margin-top:10px;cursor:pointer;padding:10px 20px}
+#inicial{align-items:flex-start;background-image:url(https://i.imgur.com/YL1CX7P.png);background-position:right;background-repeat:no-repeat;background-size:750px;display:flex;flex-direction:column;justify-content:center;min-height:750px;padding:50px}
+#inicial button,#inicial h1,#inicial p{width:100%;max-width:500px;margin:10px 0}
+#inicial2{text-align:center;margin-top:40px;margin-bottom:40px}
+#started{display:flex;justify-content:space-between;padding:0 120px}
+.startedx{text-align:center;max-width:100%;margin:10px}
+.startedx h3{margin-bottom:40px;font-size:28px}
+.startedx p{margin-top:30px}
+.startedx h3,.startedx p{font-size:16px}
+#inicial3{align-items:center;background-image:url(https://i.imgur.com/jcqjBVY.png);background-repeat:no-repeat;background-position:left;background-size:contain;display:flex;flex-direction:column;min-height:800px;margin-top:30px;padding:20px}
+#inicial3 img{margin-left:160px;margin-bottom:90px;margin-top:80px}
+.separator{margin-bottom:20px}
+.content{text-align:justify;padding-left:500px;width:550px}
+#inicial3 .more,#inicial4 .more2{color:#00f;font-size:20px;font-weight:700;margin-top:25px;text-align:left;text-decoration:none}
+#inicial4{align-items:flex-start;background-image:url(https://i.imgur.com/3fA1K5h.png);background-repeat:no-repeat;background-position:right;background-size:contain;display:flex;flex-direction:column;justify-content:center;min-height:750px;padding:20px;margin-left:150px}
+#inicial4 img{padding-left:120px;padding-bottom:30px}
+.content2{margin-left:20px;text-align:justify;padding-left:100px;width:430px}
+#inicial3 .more{margin-left:90px;color:#2678f8}
+#inicial4 .more2{margin-left:120px;color:#2678f8}
+#inicial5{align-items:flex-end;background-image:url(https://i.imgur.com/wFuOHen.png);background-repeat:no-repeat;background-position:center;background-size:cover;height:100vh;display:flex;flex-direction:column;justify-content:center;padding:20px;position:relative}
+#inicial5 .separator{filter:grayscale(80) invert(10) opacity(55%);justify-content:right;margin-top:250px;margin-right:640px;padding-right:30px}
+#inicial5 h3{margin-bottom:5vh;margin-left:10px;max-width:520px;padding-right:300px}
+#store{align-items:center;display:flex;gap:1px;justify-content:center;margin-right:300px;margin-bottom:20vh;margin-top:-90px}
+#store a img{width:270px;max-height:auto}
+#inicial6{display:flex;flex-direction:row;justify-content:center;align-items:center;margin-top:15vh;margin-right:10vh;gap:80px}
+#inicial6 .registro{text-align:center;width:500px;margin-left:100px}
+.registro h2{margin-left:30px;margin-right:50px;text-align:left;font-size:40px}
+.seta{padding-bottom:200px;margin-left:500px}
+.subli{margin-right:220px}
+footer{color:#fff;margin-top:150px;justify-content:center;margin-left:250px}
+#footer-menu{color:#fff;margin-right:300px;text-align:left;line-height:40px}
+#footer-menu h4{font-size:25px;margin-left:35px}
+#footer-menu a{text-decoration:none;color:#fff;text-align:left}
+#footer-menu ul li{list-style:none}
+#store img{width:100px}
+.registro{width:100px}
+.final{height:780px;width:auto;background-image:url("https://i.imgur.com/wLkxZO3.jpg");background-repeat:no-repeat;background-size:cover}
+.finalogo{filter:brightness(100)}
+.finalogo img{margin-right:20px;vertical-align:middle}
+.finallogo i{font-size:24px;margin-right:10px}
+.finallogo p{display:flex;margin:0;vertical-align:middle}
+.finallogo i,.finallogo img{width:24px;height:24px}
+#footer-copyright{justify-content:space-between;margin-top:20px;text-align:center;color:#fff}
+.social-icons{display:flex;gap:10px;margin-top:150px;padding-right:350px}
+.social-icons i:not(:last-child){margin-right:10px}
+.bi{font-size:22px;color:#fff}
